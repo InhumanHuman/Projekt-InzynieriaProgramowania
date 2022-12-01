@@ -14,7 +14,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("login_screen.fxml"));
         Scene scene = new Scene(root);
-        stage.setTitle("Test");
+        stage.setTitle("Party Manager");
         stage.setScene(scene);
         stage.show();
     }
